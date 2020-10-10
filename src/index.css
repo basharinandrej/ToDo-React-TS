@@ -11,3 +11,26 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.mt-2 {
+  margin-top: 0px;
+}
+
+.todo {
+    display: flex;
+}
+
+.todo label {
+  width: 100%;
+  display: flex;
+  cursor: pointer;
+}
+
+.todo i {
+  margin-left: auto;
+  margin-top: 20px;
+}
+
+.todo.active span{
+  text-decoration: line-through;
+}
